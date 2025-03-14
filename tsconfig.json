@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "lib": ["esnext"],
+      "jsx": "react-native",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "baseUrl": "./src",
+      "paths": {
+        "@components/*": ["components/*"],
+        "@screens/*": ["screens/*"],
+        "@services/*": ["services/*"],
+        "@context/*": ["context/*"],
+        "@config/*": ["config/*"]
+      }
+    },
+    "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}  
