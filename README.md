@@ -8,6 +8,8 @@ Now I will try to do the same but with React-Native and Tailwind, and if i can i
 
 In this ocassion i will use React-Native and Tailwind, because my intention is to do a mobile application.
 
+And for the Backend I will use FastAPI with Python to do the connection with the database.
+
 ## Database
 
 I will use a platform named Aiven, that offers free databases with a free plan, and i will create a MySQL database to store the photos and to be able to do the log in.
